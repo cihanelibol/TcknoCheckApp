@@ -1,0 +1,50 @@
+﻿@using TcknoCheckApp.Models.Concrete
+@model List<Starbuck>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<html>
+    <head>
+<title>Starbucks</title>
+
+</head>
+<body>
+    <h2>Starbucks</h2>
+
+
+   
+    <table class="table">      
+  <thead>
+    <tr>    
+      <th scope="col">ID</th>
+      <th scope="col">TckNo</th>
+      <th scope="col">Ad</th>
+      <th scope="col">Soyad</th>
+      <th scope="col">Doğum Yılı</th>
+      <th scope="col">Sil</th>
+      <th scope="col">Güncelle</th>
+    </tr>
+  </thead>
+   @foreach(var k in Model)
+        {
+  <tbody>
+    <tr>    
+      <td>@k.Id</td>
+      <td>@k.Tckno</td>
+      <td>@k.FirstName</td>
+      <td>@k.LastName</td>
+      <td>@k.BirthYear</td>
+     
+    </tr>  
+  </tbody>
+  }
+  </table>
+  <a href = "/Starbuck/Add/" class = "btn btn-primary">Yeni Müşteri</a>
+
+
+</body>
+</html>

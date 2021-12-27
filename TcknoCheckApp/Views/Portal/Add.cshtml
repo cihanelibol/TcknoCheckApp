@@ -1,0 +1,21 @@
+﻿@model TcknoCheckApp.Models.Concrete.Portal
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>Add</h1>
+
+    <form class="form-group" method="post">
+
+        <b>Ad</b>
+        @Html.TextBoxFor(x=>x.FirstName , new {@class="form-control"})
+        <b>Soyad</b>
+        @Html.TextBoxFor(x=>x.LastName, new {@class="form-control"})
+        <b>Doğum Yılı</b>
+        @Html.TextBoxFor(x=>x.BirthYear, new {@class="form-control"})
+        <br />
+        <button class="btn btn-info">Kaydet</button>
+
+    </form>
+
+

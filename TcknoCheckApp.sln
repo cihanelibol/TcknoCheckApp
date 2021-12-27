@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcknoCheckApp", "TcknoCheckApp\TcknoCheckApp.csproj", "{A877349C-B8DC-4A7E-A172-BDB1A17DBCB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A877349C-B8DC-4A7E-A172-BDB1A17DBCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A877349C-B8DC-4A7E-A172-BDB1A17DBCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A877349C-B8DC-4A7E-A172-BDB1A17DBCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A877349C-B8DC-4A7E-A172-BDB1A17DBCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F928E41-B143-45A4-86A4-591A64ABF08B}
+	EndGlobalSection
+EndGlobal

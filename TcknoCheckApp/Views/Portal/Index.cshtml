@@ -1,0 +1,45 @@
+﻿@using TcknoCheckApp.Models.Concrete
+@model List<Portal>
+@{
+    ViewData["Title"] = "Index";
+}
+<html>
+    <head>
+<title>Portal Kahve</title>
+
+</head>
+<body>
+    <h2>Portal Kahve</h2>
+
+
+   
+    <table class="table">      
+  <thead>
+    <tr>    
+      <th scope="col">ID</th>
+      <th scope="col">Ad</th>
+      <th scope="col">Soyad</th>
+      <th scope="col">Doğum Yılı</th>
+      <th scope="col">Sil</th>
+      <th scope="col">Güncelle</th>
+    </tr>
+  </thead>
+   @foreach(var k in Model)
+        {
+  <tbody>
+    <tr>    
+      <td>@k.Id</td>
+      <td>@k.FirstName</td>
+      <td>@k.LastName</td>
+      <td>@k.BirthYear</td>
+     
+    </tr>  
+  </tbody>
+  }
+  </table>
+  <a href = "/Portal/Add/" class = "btn btn-primary">Yeni Müşteri</a>
+
+
+</body>
+</html>
+
